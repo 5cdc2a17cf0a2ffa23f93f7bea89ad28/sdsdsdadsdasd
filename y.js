@@ -14,8 +14,8 @@ document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lstTerms").onchange 
         behavior: "instant"
     }),
     eos ? (document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_grdGrades").innerHTML = nga,
-    document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lblTermGPAData").innerText = "3.867",
-    document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lblCumGPAData").innerText = "4.000") : (document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_grdGrades").innerHTML = nga2,
+    document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lblTermGPAData").innerText = "4.000",
+    document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lblCumGPAData").innerText = "3.867") : (document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_grdGrades").innerHTML = nga2,
     document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lblTermGPAData").innerText = "In Progress",
     document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lblCumGPAData").innerText = "In Progress")) : __doPostBack("_ctl0$PlaceHolderMain$MyGradesCtrl$lstTerms", "")
 }
