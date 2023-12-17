@@ -12,8 +12,8 @@ eos1 = true;
 eos2 = false;
 
 if ("16959|2023-SP-MOP|1/9/2023_5/6/2023" === document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lstTerms > [selected]").value) {
-    document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_grdGrades").innerHTML = nga;
-else if ("16961|2023-FA-MOP|8/21/2023_12/16/2023" document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lstTerms > [selected]").value) {
+    document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_grdGrades").innerHTML = nga;  
+} else if ("16961|2023-FA-MOP|8/21/2023_12/16/2023" document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lstTerms > [selected]").value) {
     document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_grdGrades").innerHTML = nga3;
 }
 
