@@ -66,7 +66,7 @@ document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lstTerms").onchange 
         if (eos3) {
             document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_grdGrades").innerHTML = nga6,
             document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lblTermGPAData").innerText = "4.000",
-            document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lblCumGPAData").innerText = "3.913"
+            document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lblCumGPAData").innerText = "3.934"
         } else {
             document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_grdGrades").innerHTML = nga5,
             document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lblTermGPAData").innerText = "In Progress",
