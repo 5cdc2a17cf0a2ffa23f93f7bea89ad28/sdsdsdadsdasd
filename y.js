@@ -14,13 +14,13 @@ eos1 = true;
 eos2 = false;
 eos3 = true;
 
-if ("16959|2023-SP-MOP|1/9/2023_5/6/2023" === document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lstTerms > [selected]").value) {
+if ("16959|2023-SP-MOP|1/9/2023_5/6/2023" === document.querySelector("#lstTerms > [selected]").value) {
     document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_grdGrades").innerHTML = nga;  
-} else if ("16961|2023-FA-MOP|8/21/2023_12/16/2023" === document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lstTerms > [selected]").value) {
+} else if ("16961|2023-FA-MOP|8/21/2023_12/16/2023" === document.querySelector("#lstTerms > [selected]").value) {
     document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_grdGrades").innerHTML = nga3;
 }
 
-document.querySelector("#_ctl0_PlaceHolderMain_MyGradesCtrl_lstTerms").onchange = l => {
+document.querySelector("#lstTerms").onchange = l => {
     if ("16959|2023-SP-MOP|1/9/2023_5/6/2023" == l.target.value) {
         sleep(1500);
         window.scrollTo({
